@@ -21,11 +21,14 @@ public class Person {
     private Integer age;
     private String email;
 
-    public Person(Integer id, String name, Integer age, String email) {
-        this.id = id;
+    public Person(String name, Integer age, String email) {
         this.name = name;
         this.age = age;
         this.email = email;
+    }
+
+    public Person() {
+
     }
 
     public Integer getId() {
